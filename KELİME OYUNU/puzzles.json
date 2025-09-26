@@ -1,0 +1,28 @@
+
+[
+    {
+        "letters": "KALE",
+        "words": ["KALE", "KAL", "ALE", "EL"],
+        "display_letters": "K, A, L, E"
+    },
+    {
+        "letters": "OMLET",
+        "words": ["OMLET", "MET", "TEL", "LOT", "OL"],
+        "display_letters": "O, M, L, E, T"
+    },
+    {
+        "letters": "MASA",
+        "words": ["MASA", "MAS", "ASA"],
+        "display_letters": "M, A, S, A"
+    },
+    {
+        "letters": "KİTAP",
+        "words": ["KİTAP", "KİT", "KAT", "PİK", "TAK", "AT", "TİP", "PAK", "KİP", "PAT"],
+        "display_letters": "K, İ, T, A, P"
+    },
+    {
+        "letters": "TAKVİM",
+        "words": ["TAKVİM", "TAKMA", "KATİ", "VAKİT", "ATİK", "KAM", "KAV", "KİM", "KİT", "MAT", "MİAT", "TAK", "TAM", "VAT", "KAT"],
+        "display_letters": "T, A, K, V, İ, M"
+    }
+]
