@@ -1,0 +1,4 @@
+Pillow
+bcrypt
+pyotp
+qrcode
