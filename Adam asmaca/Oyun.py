@@ -179,10 +179,10 @@ class AdamOyun():
         self.indeks=random.randrange(len(self.__kelimeler))
 
     def hakkimda(self):
-        showinfo("Hakkımda","Saffet Murat tarafından yapıldı\n(Created by: Saffet Murat)\n\n{}\n\n{}".format("https://trmsma.wordpress.com","https://github.com/saffetmurat"))
+        showinfo("Hakkımda"," ARDA tarafından yapıldı\n(Created by: ARDA)\n\n{}\n\n{}".format("https://trmsma.wordpress.com","https://github.com/NeseliArda1"))
 
     def acikla(self):
-        aciklamaMetni = """    Adam Asmaca Oyunu(Hangman Game), dosyadan aldığı kelimeler arasından rastgele bir tanesini seçer.
+        aciklamaMetni = """Adam Asmaca Oyunu, dosyadan aldığı kelimeler arasından rastgele bir tanesini seçer.
     Varsayılan olarak çalışma dizininde bulunan iller.csv dosyasındaki illeri alır. Yani varsayılan olarak bu oyunda illerden birini bulmanı istiyor.
     İstersen iller.csv dosyası yerine çalışma dizinine koyacağın başka bir csv türündeki dosyadan kelimeleri çekip bunlardan birini sana sorabilir.
     Bunun için dosyanın adını uzantısıyla birlikte vermen yeterlidir.
@@ -191,7 +191,7 @@ class AdamOyun():
 
     def dosyaYukle(self):
         self.pencere = Tk()
-        self.pencere.title("Adam Asmaca Oyunu(Hangman Game) Dosya Yükleme Kısmı")
+        self.pencere.title("Adam Asmaca Oyunu Dosya Yükleme Kısmı")
         self.pencere.geometry("600x50+200+200")
         self.pencere.resizable(width=FALSE,height=FALSE)
 
@@ -259,4 +259,5 @@ class AdamOyun():
 
 if __name__ == "__main__":
     dosyaAdi = "iller.csv"
+
     oyun = AdamOyun(dosyaAdi)
